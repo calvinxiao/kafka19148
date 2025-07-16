@@ -2,6 +2,12 @@
 
 A Golang CLI tool to split Kafka partition reassignment into 3 plans to avoid unclean leader election in [KAFKA-19148](https://issues.apache.org/jira/browse/KAFKA-19148).
 
+## Install
+
+```bash
+go install github.com/calvinxiao/kafka19148@latest
+```
+
 ## Building
 
 ```bash
